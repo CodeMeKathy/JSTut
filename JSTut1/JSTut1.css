@@ -1,0 +1,19 @@
+.jumbotron {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+/* textarea {
+  height: 200px;
+} */
+
+/* .form-control {
+  width: 400px;
+}
+
+@media screen and (min-width: 576px ) {
+  .form-control {
+   width: 300px;
+   display: block;
+ }
+} */
