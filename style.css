@@ -11,11 +11,13 @@ body {
 
 a {
   color: black;
+  text-decoration: none;
 
 }
 
 a:hover {
   color: #C3CCAF !important;
+  text-decoration: none;
 }
 
 .header {
