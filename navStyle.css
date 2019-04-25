@@ -1,5 +1,5 @@
-/* body {
-  font-family: 'Raleway', sans-serif; 
+body {
+  font-family: 'Raleway', sans-serif; /*Fav Fav*/
   background-color: #B38184;
   text-align: center;
 }
@@ -20,17 +20,4 @@ a {
 a:hover {
   color: #C3CCAF !important;
   text-decoration: none;
-} */
-
-.header {
-  text-align: center;
-}
-
-img {
-  width: 200px;
-  height: 200px;
-}
-
-.prog-title {
-  text-align: center;
 }
