@@ -11,7 +11,7 @@
   width: 400px;
 }
 
-@media screen and (min-width: 576px ) {
+@media (min-width: 576px ) {
   .form-control {
    width: 300px;
    display: block;

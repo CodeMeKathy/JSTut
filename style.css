@@ -1,0 +1,32 @@
+body {
+  font-family: 'Raleway', sans-serif; /*Fav Fav*/
+  background-color: #B38184;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Clicker Script', cursive;
+  text-align: right !important;
+}
+
+a {
+  color: black;
+
+}
+
+a:hover {
+  color: #C3CCAF !important;
+}
+
+.header {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.prog-title {
+  text-align: center;
+}
