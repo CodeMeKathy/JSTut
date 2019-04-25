@@ -12,3 +12,38 @@ function calcPI(iterations) {
   .value = pi.toFixed(10)
 
 }
+
+
+// Calculate Fibonacci
+
+// Starter Value + Preceding Value
+
+// Ex. startingVal = 1
+// (1 + 1) //2 ; (1 + 2) //3; (2 + 3) //5; 8; 13; 21; 24; 34; 55 ..etc.
+
+let fibList = [] 
+ 
+function getFibList(howMany) {
+  for(i = 0; i < howMany; i++) {
+    fibList[i] = fib(i)
+  }
+  fibList.shift()// Used to remove first output in the array zero in this case.
+  document.getElementById('output1').value = fibList.join(', ')
+}
+
+function fib(whichNum) {
+  let num1 = 1, num2 = 0, temp,
+  i = 0
+  while (i < whichNum) {
+    temp = num1
+    num1 = num1 + num2
+    num2 = temp
+    i++
+  }
+
+  return num2
+  
+}
+
+
+
