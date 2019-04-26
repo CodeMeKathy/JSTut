@@ -3,7 +3,7 @@
 } */
 
 .jumbotron {
-  background-color: #A5B3AA;
+  background-color: #A5B3AA !important;
   color: aliceblue;
 }
 
