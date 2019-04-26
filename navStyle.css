@@ -27,3 +27,8 @@ a:hover {
   /* background-color: #512B52 */
   color: aliceblue;
 }
+
+#header {
+  background-color: #e9ecef;
+  color: black;
+}
