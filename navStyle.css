@@ -21,3 +21,9 @@ a:hover {
   color: #C3CCAF !important;
   text-decoration: none;
 }
+
+.jumbotron {
+  background-color: #a5b3aa;
+  /* background-color: #512B52 */
+  color: aliceblue;
+}
