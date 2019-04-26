@@ -34,3 +34,8 @@ img {
 .prog-title {
   text-align: center;
 }
+
+#header {
+  background-color: #e9ecef;
+  color: black;
+}
