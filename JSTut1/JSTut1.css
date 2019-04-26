@@ -1,11 +1,12 @@
+.jumbotron {
+  background-color: #a5b3aa;
+  /* background-color: #512B52 */
+  color: aliceblue;
+}
+
 /* body {
   background-color: #F8F4E4;
 } */
-
-.jumbotron {
-  background-color: black !important;
-  color: aliceblue;
-}
 
 /* textarea {
   height: 200px;
