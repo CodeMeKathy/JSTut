@@ -28,7 +28,7 @@
   font-weight: bold;
 }
 
-.numBut{
+.numBtn{
   height: 59px;
   width: 59px;
   margin: 10px 4px;
@@ -37,7 +37,12 @@
   color: black;
 }
 
-.mathBut{
+.numBtn:hover {
+  background: #A6B1E1;
+
+}
+
+.mathBtn{
   height: 59px;
   width: 59px;
   margin: 10px 4px;
@@ -45,10 +50,35 @@
   background-color: #F5A2A2;
 }
 
-.equalBut{
+.mathBtn:hover {
+  background: #B37BA4;
+
+}
+
+.equalBtn{
   width: 59px;
   height: 126px;
   margin: 10px 4px;
   border: none !important;
   margin-bottom: -60px;
+}
+
+.btn-warning {
+  background: #FFD8D8;
+
+}
+
+.btn-warning:hover {
+  background: #F6BD60;
+
+}
+
+.btn-danger {
+  background: #71A9F7;
+
+}
+
+.btn-danger:hover {
+  background: #DD7373;
+
 }
