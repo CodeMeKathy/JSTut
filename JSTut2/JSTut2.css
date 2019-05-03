@@ -1,0 +1,17 @@
+
+.container{
+  background: #FFFCDD;
+  margin: 0px;
+  align-content: center;
+}
+
+.calc-container{
+  width: 300px;
+  background-color: #DCF7F3;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-items: center;
+}
+
