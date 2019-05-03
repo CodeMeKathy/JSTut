@@ -27,10 +27,14 @@ a:hover {
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
 }
 
 .prog-title {
   text-align: center;
+}
+
+.container {
+  background-color: #fdf6ec;
 }
