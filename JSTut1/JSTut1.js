@@ -49,7 +49,7 @@ function fib(whichNum) {
 
   // Create a string with separator to serve as placeholder for user input.
  
-let madLibText = "My dear old ~ sat me down to hear some words of wisdom \n 1. Give a man a ~ and you ~ him for a day ~ a man to ~ and he'll ~ forever \n 2. He who ~ at the right time can ~ again \n 3. Always wear ~ ~ in case you're in a ~ \n 4. Don't use your ~ to wipe your ~ Always have a clean ~ with you"
+let madLibText = "My dear old ~ sat me down to hear some words of wisdom \n 1. Give a man a ~ and you ~ him for a day, but ~ a man to ~ and he'll ~ forever \n 2. He who ~ at the right time can do it again \n 3. Always wear ~ ~ in case you're in a ~ \n 4. Don't use your ~ to wipe your ~ Always have a clean ~ with you"
 
   // Convert string into an array.
 
@@ -71,7 +71,7 @@ function madLibGen() {
 }
 
 function createInputArray() {
-  for(i=0; i<= 13; i++){
+  for(i=0; i<= 12; i++){
     inputArray[i] = document.getElementById('i' + i).value
   }
   
