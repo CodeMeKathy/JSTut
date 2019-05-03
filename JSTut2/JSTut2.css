@@ -1,6 +1,7 @@
 .container{
   background: #FFFCDD;
   margin: 0px;
+  border-radius: 2.5%; 
   /* align-content: center; */
 }
 
