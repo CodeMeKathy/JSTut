@@ -1,7 +1,9 @@
 .container{
   background: #FFFCDD;
   margin: 0px;
-  border-radius: 2.5%; 
+  border-radius: 2.5%;
+  width:500px; 
+  height: 550px;
   /* align-content: center; */
 }
 
@@ -10,9 +12,10 @@
   background-color: #DCF7F3;
   border-radius: 20px;
   padding: 30px;
+  padding-top: 55px;
   margin-top: 10px;
   margin-bottom: 10px;
-  /* justify-items: center; */
+
 }
 
 .calcInputWindow {
@@ -40,4 +43,12 @@
   margin: 10px 4px;
   border: none !important;
   background-color: #F5A2A2;
+}
+
+.equalBut{
+  width: 59px;
+  height: 126px;
+  margin: 10px 4px;
+  border: none !important;
+  margin-bottom: -60px;
 }
