@@ -92,7 +92,7 @@
 
 }
 
-
+/* [] - Correct the box-shadow outline:active on the mathBtns and maybe numBtns and mp/mcBtns */
 /* .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
 	color: #33a6cc;
 	border-color: #DE1A1A;
