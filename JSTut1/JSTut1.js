@@ -47,6 +47,60 @@ function fib(whichNum) {
 
 // MadLib Generator
 
-let madLibText = "My dear old ~ sat me down to hear some words of wisdom \n 1. Give a man a ~ and you ~ him for a day ~ a man to ~ and he'll ~ forever \n 2. He who ~ at the right time can ~ again \n 3. Always wear ~ ~ in case you're in a ~ \n 4. Don't use your ~ to wipe your ~ Always have a clean ~ with you"
+  // Create a string with separator to serve as placeholder for user input.
+ 
+let madLibText = "My dear old ~ sat me down to hear some words of wisdom \n 1. Give a man a ~ and you ~ him for a day, but ~ a man to ~ and he'll ~ forever \n 2. He who ~ at the right time can do it again \n 3. Always wear ~ ~ in case you're in a ~ \n 4. Don't use your ~ to wipe your ~ Always have a clean ~ with you"
+
+  // Convert string into an array.
+
+let madLibArray = madLibText.split(' ')
+
+
+
+  // Create array for user input.
+
+let inputArray = []
+
+function madLibGen() {
+    createInputArray()
+    if(checkForMissingInput()) {
+      document.getElementById('output1').value = "Enter all values above."
+    } else {
+      createMadLibSent()
+    }
+}
+
+function createInputArray() {
+  for(i=0; i<= 12; i++){
+    inputArray[i] = document.getElementById('i' + i).value
+  }
+  
+}
+  // Returns true if user failed to provide and input
+function checkForMissingInput() {
+  let defaultArrayVals = ['Person', 'Noun', 'Verb', 'Adjective', 'Plural Verb', 'Body Part', 'Event' ]
+
+  for (i=0; i < inputArray.length; i++){
+    // Check to see if inputs === defaultArrayVals
+     if(defaultArrayVals.indexOf(inputArray[i]) > -1){
+       return true 
+     }
+  }
+  return false
+}
+
+  // Search for separator === `~` and replace with user input stored in an array.
+
+function createMadLibSent() {
+  let arrIndex = 0
+  for(i=0; i< madLibArray.length; i++){
+    let matchIndex = madLibArray.indexOf('~')
+    madLibArray[matchIndex] = inputArray[arrIndex]
+    arrIndex++
+  }
+  // Join all elements within madLibArray and return to output.
+
+  document.getElementById('output1').value = madLibArray.join(' ')
+}
 
 

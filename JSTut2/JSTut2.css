@@ -1,0 +1,115 @@
+.container{
+  background: #FFFCDD;
+  margin: 0px;
+  border-radius: 2.5%;
+  width:500px; 
+  height: 550px;
+  /* align-content: center; */
+}
+
+.calc-container{
+  width: 300px;
+  background-color: #DCF7F3;
+  border-radius: 20px;
+  padding: 30px;
+  padding-top: 55px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.calcInputWindow {
+  width: 265px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 2px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.numBtn{
+  height: 59px;
+  width: 59px;
+  margin: 10px 4px;
+  border: none !important;
+  background-color: aliceblue;
+  color: black;
+}
+
+.numBtn:hover {
+  background: #A6B1E1;
+
+}
+
+.mathBtn{
+  height: 59px;
+  width: 59px;
+  margin: 10px 4px;
+  border: none !important;
+  background-color: #F5A2A2;
+}
+
+.mathBtn:hover {
+  background: #B37BA4;
+
+}
+
+.mathBtn:active, .mathBtn:focus, .mathBtn.active:focus, .mathBtn.outline:focus {
+  background: #9c6b8f !important;
+  /* border-color: #9c6b8f !important; */
+  /* outline-color: 5px 5px #9c6b8f !important; */
+  /* outline: none !important; */
+  /* box-shadow: 0px 1px #9e5089 !important; */
+
+}
+
+.multi {
+  font-size: 35px!important;
+  padding-top: 13px;
+}
+
+.equalBtn{
+  width: 59px;
+  height: 126px;
+  margin: 10px 4px;
+  border: none !important;
+  margin-bottom: -60px;
+}
+
+.btn-warning {
+  background: #FFD8D8;
+
+}
+
+.btn-warning:hover {
+  background: #F0B67F;
+
+}
+
+.btn-warning:active {
+  background: #F6BD60 !important;
+
+}
+
+/* [] - Correct the box-shadow outline:active on the mathBtns and maybe numBtns and mp/mcBtns */
+/* .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #DE1A1A;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+} */
+
+.btn-danger {
+  background: #71A9F7;
+
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger.active:focus  {
+  background: #DD7373 !important;
+  outline-color: #DD7373 !important;
+
+}

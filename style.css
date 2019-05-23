@@ -21,21 +21,25 @@ a:hover {
   color: #C3CCAF !important;
   text-decoration: none;
 } */
-
+ 
 .header {
   text-align: center;
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 175px;
 }
 
-.prog-title {
+.proj-title {
   text-align: center;
 }
 
 #header {
   background-color: #e9ecef;
   color: black;
+}
+
+.container {
+  background-color: #fdf6ec;
 }
